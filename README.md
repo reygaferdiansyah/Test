@@ -232,7 +232,6 @@ Isi file:
 
 Silakan jalankan seluruh isi file `query.sql` di PostgreSQL untuk melihat hasilnya secara berurutan.
 
-Siap diskusi lebih lanjut jika ada yang ingin ditanyakan.
 
 Siap untuk diskusi lebih lanjut.  
 Terima kasih!
