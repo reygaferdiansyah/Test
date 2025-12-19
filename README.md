@@ -221,6 +221,19 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    Menghasilkan informasi agregat (COUNT, SUM, STRING_AGG) dan ranking (window function).
    Output mudah dibaca dan sesuai untuk kebutuhan reporting.
 
+
+**File:** `query.sql`
+
+Isi file:
+- Pembuatan tabel `tabel1` dan tabel aplikasi pembelian
+- Data contoh
+- Semua query yang diminta (subquery Gmail, INNER/LEFT JOIN contoh, daftar order, total per customer, top 3 produk)
+- Contoh function dan procedure
+
+Silakan jalankan seluruh isi file `query.sql` di PostgreSQL untuk melihat hasilnya secara berurutan.
+
+Siap diskusi lebih lanjut jika ada yang ingin ditanyakan.
+
 Siap untuk diskusi lebih lanjut.  
 Terima kasih!
 
