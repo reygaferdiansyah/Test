@@ -9,7 +9,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
 ## Isi Jawaban
 
 ### Knowledge Base
-1. Create table `tabel1`
+### 1. Create table `tabel1`
    
    ![Screenshot 2025-12-20 052133](https://github.com/user-attachments/assets/79860aec-c0a7-4d96-b92c-c2e2fbeb10d7)
 
@@ -22,7 +22,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    Penambahan Data Dummy agare tabel memiliki isi dan dapat digunakan untuk demonstrasi subquery (No. 4), saya memasukkan 5 record contoh yang terdiri dari nama lengkap serta alamat email dengan domain beragam (Gmail, Yahoo, Hotmail).
    Data ini sengaja dibuat campuran agar subquery untuk filter email Gmail menghasilkan output yang bermakna.
 
-3. Penjelasan fungsi Primary Key, Foreign Key, Index, dan Unique Constraint
+### 3. Penjelasan fungsi Primary Key, Foreign Key, Index, dan Unique Constraint
 
    ### Penjelasan Constraint dan Index dalam Database
    
