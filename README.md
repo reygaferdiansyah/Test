@@ -232,6 +232,8 @@ Isi file:
 
 Silakan jalankan seluruh isi file `query.sql` di PostgreSQL untuk melihat hasilnya secara berurutan.
 
+Note:
+Untuk menjalankan Perbedaan Procedure vs Function harus jalankan test case terlebih dahulu karena saya mengambil data dari test case tersebut 
 
 Siap untuk diskusi lebih lanjut.  
 Terima kasih!
