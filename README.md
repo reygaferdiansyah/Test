@@ -222,7 +222,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    Output mudah dibaca dan sesuai untuk kebutuhan reporting.
 
 
-**File:** `query.sql`
+## **File:** `query.sql`
 
 Isi file:
 - Pembuatan tabel `tabel1` dan tabel aplikasi pembelian
