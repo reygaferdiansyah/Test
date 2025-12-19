@@ -178,7 +178,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    - Relasi many-to-many antara order dan product diakomodasi melalui tabel order_items.
    
    Desain ini sudah siap digunakan untuk aplikasi pembelian nyata dan mendukung semua query analitik yang diminta pada bagian b.
-### B. 
+### B. Buat query dengan Postgresql untuk informasi sebagai berikut: - Daftar seluruh pembelian/order beserta produk yang dibelinya, customer yang membelinya, nilai total & jumlah product yang dibelinya, waktu pembeliannya - Total nilai pembelian per customer per bulan - Data produk dengan 3 penjualan terbesar per bulan
 
    1. Daftar Seluruh Pembelian/Order (lengkap detail)
    
