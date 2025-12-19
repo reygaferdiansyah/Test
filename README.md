@@ -22,7 +22,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    Penambahan Data Dummy agare tabel memiliki isi dan dapat digunakan untuk demonstrasi subquery (No. 4), saya memasukkan 5 record contoh yang terdiri dari nama lengkap serta alamat email dengan domain beragam (Gmail, Yahoo, Hotmail).
    Data ini sengaja dibuat campuran agar subquery untuk filter email Gmail menghasilkan output yang bermakna.
 
-### 3. Penjelasan fungsi Primary Key, Foreign Key, Index, dan Unique Constraint
+### 2. Penjelasan fungsi Primary Key, Foreign Key, Index, dan Unique Constraint
 
    ### Penjelasan Constraint dan Index dalam Database
    
@@ -67,7 +67,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    | Fungsi utama           | Identifier unik + integritas | Nilai unik                   | Integritas referensial       | Optimasi performance         |
    | Bisa jadi target FK    | Ya                           | Ya                           | Tidak                        | Tidak                        |
 
-3. Perbedaan Inner Join dan Left Join
+### 3. Perbedaan Inner Join dan Left Join
    Contoh dibawah adalah code yang dibuat sebagai contoh meskipun nama tabel1 diubah menjadi tabel1_No3 tapi implementasi dan outputnya tetap sesuai. Untuk memperjelas konsep perbedann Inner Join dan Left Join sesuai permintaan soal, saya membuat contoh sederhana menggunakan dua tabel
 
    ![Screenshot 2025-12-20 054706](https://github.com/user-attachments/assets/b392f0ee-37c6-4593-940a-6022c92dbd43)
@@ -98,7 +98,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    
    Contoh ini menunjukkan dengan sangat jelas perbedaan output kedua query sesuai permintaan soal.
    
-5. Subquery email Gmail
+### 4. Subquery email Gmail
    
    ![Screenshot 2025-12-20 042844](https://github.com/user-attachments/assets/099504b6-99c4-4011-b67b-52a7c4b663f4)
 
@@ -107,7 +107,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    Subquery bagian dalam (SELECT email FROM tabel1 WHERE email ILIKE '%@gmail.com') bertugas mencari semua email yang mengandung @gmail.com (menggunakan ILIKE agar tidak sensitif terhadap huruf besar/kecil).
    Query utama kemudian memilih email-email yang termasuk dalam hasil subquery tersebut menggunakan klausa IN. Hasil akhir hanya menampilkan email dengan domain Gmail, sementara email dari domain lain (seperti Yahoo atau Hotmail) tidak ditampilkan. Query ini telah memenuhi syarat soal        secara tepat: menggunakan subquery dan berhasil memfilter hanya email Gmail.
      
-6. Perbedaan Procedure vs Function  
+### 5. Perbedaan Procedure vs Function  
    Untuk memperjelas perbedaan antara Function dan Procedure, saya membuat contoh sederhana yang melakukan tugas sama: menghitung total pembelian seorang customer dari tabel orders.
 
    Function
@@ -139,7 +139,7 @@ Terima kasih atas kesempatan mengikuti technical test ini.
    Kedua contoh ini menunjukkan dengan jelas perbedaan perilaku dan cara penggunaan function serta procedure di PostgreSQL sesuai permintaan soal.
    
 ### Test Case
-A. Schema aplikasi pembelian (customers, products, orders, order_items)
+### A. Schema aplikasi pembelian (customers, products, orders, order_items)
    
   ![Screenshot 2025-12-20 050514](https://github.com/user-attachments/assets/e436723b-09a0-4c5b-9835-92f839ed6361)
 
@@ -178,7 +178,7 @@ A. Schema aplikasi pembelian (customers, products, orders, order_items)
    - Relasi many-to-many antara order dan product diakomodasi melalui tabel order_items.
    
    Desain ini sudah siap digunakan untuk aplikasi pembelian nyata dan mendukung semua query analitik yang diminta pada bagian b.
-B. 
+### B. 
 
    1. Daftar Seluruh Pembelian/Order (lengkap detail)
    
